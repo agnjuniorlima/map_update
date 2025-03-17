@@ -1,0 +1,23 @@
+a. A implementação de um módulo para o sistema de controle de veículos autônomos desenvolvido pelo Laboratório de Computação de Alto Desempenho (LCAD) da UFES, denominado Carmen LCAD. 
+ 
+b. A realização de experimentos para avaliar o desempenho do módulo desenvolvido. 
+ 
+c. A escrita de um relatório. O relatório deve conter as seções Resumo, Introdução, Método Proposto, Metodologia Experimental, Resultados Experimentais e Bibliografia, com o conteúdo definido abaixo. O relatório deve também ter de 2 a 4 páginas A4 e seguir o formato Microsoft Word, A4, disponível em https://www.ieee.org/conferences_events/conferences/publishing/templates.html. 
+i) Resumo: Apresentação sucinta do método proposto e dos resultados experimentais; 
+ii) Introdução: Descrição sucinta do problema, dos trabalhos relacionados, do método proposto, e dos resultados experimentais; 
+iii) Método Proposto: Descrição detalhada do método proposto; 
+iv) Metodologia Experimental: Descrição da metodologia adotada para a avaliação do desempenho do método, incluindo a base de dados e as métricas; 
+v) Resultados Experimentais: Apresentação e discussão dos resultados experimentais; 
+vi) Bibliografia: Referências bibliográficas citadas no relatório. 
+ 
+2) O trabalho pode ser realizado por um grupo com até 2 alunos. 
+ 
+3) Cada proposta de trabalho pode ser escolhida por até 2 grupos.  
+ 
+4) Deverá ser entregue:  
+a. Um arquivo no formato PDF, que contenha o relatório, denominado "relatorio.pdf";  
+b. Um arquivo no formato texto, que descreva como compilar e executar o código do módulo desenvolvido, denominado "readme.txt"; 
+c. Um link para um video no formato MP4, que demonstre o funcionamento do módulo desenvolvido, denominado "video.mp4"; 
+d. Um link para o repositório GitHub, que contenha o código. 
+
+<<conference-template-a4-IEEE.docx>>
