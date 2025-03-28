@@ -6,6 +6,6 @@ Resumo— Este trabalho visa a implementação de um novo modulo atualizador de 
 
 O trabalho foi realizado por duas duplas:
 1) Luiz Rogério Araujo de Araujo e Agnelo Pereira Lima Junior
-2) Áurea Oliveira e Miguel Gewhr de Oliveira
+2) Áurea Santos de Oliveira e Miguel Gewhr de Oliveira
 
 O relatório está disponível em https://1drv.ms/w/c/70412aa3b15ab01e/Ee7ud2ZxPStKh1Snjv-TOxMBYclYa7vXb1yxmnoS0UJEYQ?e=DXD5xA 
