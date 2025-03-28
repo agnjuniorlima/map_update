@@ -1,0 +1,54 @@
+1)	Como Editar um Mapa com o CARMEN
+
+Caso o mapa tenha pequenas imperfeições, como uma pessoa tenha passado ou a porta tenha um formato estranho, você pode editar o mapa para "limpar" partes dele. 
+
+Para isso, abra o mapa com algum process (utilize o navigate por facilidade), e coloque o robô em um local tal que o ponto que você quer editar fique próximo do canto inferior esquerdo (pode colocar o robo em uma parte fora do mapa normal) e anote as coordenadas do origin que aparece nas informações.
+
+Agora, vá até o /data, encontre o seu mapa (geralmente está em uma pasta mapper_teste) e abra o arquivo que tem as suas coordenadas com o seguinte comando (o central deve estar rodando,
+e esteja na bin):
+
+```
+./map_editor {nome_do_arquivo}
+```
+
+Com a ferramenta "Brush" você pode pode colorir. Caso queira apagar, coloque a probabilidade em 0, e caso queria colocar escuro, coloque probabilidade máxima.
+
+
+2)	Como Atualizar Mapa Atual com o CARMEN
+
+No mapa criado com os passos anteriores, a porta não existirá, e nem o fardo dela. Para adicioná-la ou qualquer objeto não captado anteriormente, faça o seguinte:
+
+```
+ls ../data/mapper_teste2
+mkdir ../data/map_ct13_hercules_{data_do_dia}
+cp ../data/mapper_teste2/* ../data/map_ct13_hercules_{data_do_dia}
+```
+  
+Ligue e rode os processos p/ rodar o CARMEN.
+```
+cd ~/carmen_lcad/bin
+./init_can_hercules.bat
+```
+
+Inicialize o central do CARMEN:
+
+```bash
+cd ~/carmen_lcad/bin
+./central
+```
+
+Inicialize o process :
+
+```bash
+cd ~/carmen_lcad/bin
+./proccontrol hercules/process-hercules-volta_da_ufes-pid_sensorbox3.ini 
+```
+
+Com o hercules parado e localizado, pare o "mapper" e o "mapper_server", inicialize o "mapper_create" reinicialize o "mapper_server", espere o mapa ser recriado. 
+
+**Atenção:** Não pode haver movimentação no local de mapeamento, senão, o mapa irá recriar os objetos identificados como obstaculos.
+
+Após isso, você pode parar o "mapper_create" e "mapper_server", matar o process e testar o novo mapa de teste criado alterando os parâmetros de entrada de mapa com o comando abaixo:
+```
+gedit process-hercules-volta_da_ufes-pid_sensorbox3.ini
+```

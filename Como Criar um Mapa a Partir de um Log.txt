@@ -1,0 +1,20 @@
+Como Criar um mapa a partir de um log
+
+Execute o process de playback para ver em que momento (tempo) o veículo começa a se mover.
+
+Para isso, edite o process de playback, colocando o log que você gravou, e execute o process :
+```
+gedit ~/carmen_lcad/bin/hercules/process-hercules_ct13_playback_sensorbox3.ini
+./proccontrol ~/carmen_lcad/bin/hercules/process-hercules_ct13_playback_sensorbox3.ini
+```
+
+Depois de ver o tempo em que começou o movimento, edite o process de fastslam, colocando o log que você gravou, e execute o process:
+
+```
+gedit ~/carmen_lcad/bin/hercules/process-hercules-fastslam.ini
+./proccontrol ~/carmen_lcad/bin/hercules/process-hercules-fastslam.ini
+```
+
+No Proccontrol GUI ligue e desligue o módulo ClMapDir para limpar a pasta. Em seguida, coloque no playback control um tempo um pouco menor que o do passo anterior (para ter folga). 
+
+Por fim, execute os módulos rddf_build e fastslam e aguarde.
