@@ -1,4 +1,3 @@
-ra# map_update
 Map Updater (lifelong SLAM)
 Este espaço é dedicado ao atualizador de mapas objeto do trabalho de Robótica Probabilística do PPGI/UFES, período 2024/2.
 
