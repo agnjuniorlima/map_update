@@ -13,4 +13,4 @@ O relatório está disponível em https://1drv.ms/w/c/70412aa3b15ab01e/Ee7ud2ZxP
 
 A forma de usar está apresentada no arquivo ["Como Editar um Novo Mapa.docx"](https://github.com/agnjuniorlima/map_update/blob/main/Como%20Editar%20um%20Novo%20Mapa.docx) 
 
-Adicionamente, incluimos um procedimento para criar um novo mapa a partir de um log do CARMEN, no arquivo ["Como Criar um Mapa a Partir de um Log"](https://github.com/agnjuniorlima/map_update/blob/main/Como%20Criar%20um%20Mapa%20a%20Partir%20de%20um%20Log.docx) 
+Adicionamente, incluimos um procedimento para criar um novo mapa a partir de um log do CARMEN, no arquivo ["Como Criar um Mapa a Partir de um Log"](https://github.com/agnjuniorlima/map_update/blob/main/Como%20Criar%20um%20Mapa%20a%20Partir%20de%20um%20Log.txt)
